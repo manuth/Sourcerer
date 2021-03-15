@@ -55,7 +55,13 @@ One example of a view-mode we definitely want to see implemented is the followin
 Figure 3: An example of a directory
 
 ### Items
-Entries and containers are called "items". An item must provide following capabilities:
+Entries and containers are called "items". An item must have following properties:
+  - Preview-Icon
+  - Name
+  - Creation-Date
+  - Change-Date
+
+Furthermore, they must provide following capabilities:
   - Add tags
   - Move
   - Delete
