@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Sourcerer.Explorer.Media;
 
 namespace Sourcerer
 {
@@ -20,9 +21,17 @@ namespace Sourcerer
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MainWindow"/> class.
+        /// </summary>
         public MainWindow()
         {
             InitializeComponent();
+            pictureList.ItemsSource = new List<MediaItem>()
+            {
+                new MyMediaItem(),
+                new MyMediaItem()
+            };
         }
     }
 }
