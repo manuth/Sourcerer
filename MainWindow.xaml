@@ -3,8 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Sourcerer"
-        xmlns:ImageLibrary="clr-namespace:Sourcerer.ImageLibrary" x:Class="Sourcerer.MainWindow"
+        xmlns:local="clr-namespace:Gizmo.Sourcerer"
+        xmlns:ImageLibrary="clr-namespace:Gizmo.Sourcerer.ImageLibrary"
+        x:Class="Gizmo.Sourcerer.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid x:Name="grid1">

@@ -1,6 +1,6 @@
 using System.Windows.Controls;
 
-namespace Sourcerer.ImageLibrary
+namespace Gizmo.Sourcerer.ImageLibrary
 {
     public partial class RubiksCube : UserControl
     {

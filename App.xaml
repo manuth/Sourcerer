@@ -1,7 +1,7 @@
-﻿<Application x:Class="Sourcerer.App"
+﻿<Application x:Class="Gizmo.Sourcerer.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Sourcerer"
+             xmlns:local="clr-namespace:Gizmo.Sourcerer"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

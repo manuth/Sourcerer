@@ -3,10 +3,10 @@ using System.IO;
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using Sourcerer.Explorer.Media;
-using Sourcerer.ImageLibrary;
+using Gizmo.Sourcerer.Explorer.Media;
+using Gizmo.Sourcerer.ImageLibrary;
 
-namespace Sourcerer
+namespace Gizmo.Sourcerer
 {
     /// <summary>
     /// Represents a custom media item.

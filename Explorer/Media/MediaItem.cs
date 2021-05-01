@@ -2,7 +2,7 @@ using System;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace Sourcerer.Explorer.Media
+namespace Gizmo.Sourcerer.Explorer.Media
 {
     /// <summary>
     /// Represents a media-explorer item.
