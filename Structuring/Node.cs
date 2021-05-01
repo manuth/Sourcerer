@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Windows.Media;
 
-namespace Gizmo.Sourcerer.Explorer
+namespace Gizmo.Sourcerer.Structuring
 {
     /// <summary>
-    /// Represents an node which can be viewed in the explorer.
+    /// Represents a node in the structure.
     /// </summary>
     public abstract class Node
     {
