@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="ImageLibrary/RubiksCube.xaml" />
+    <Compile Update="ImageLibrary/RubiksCube.xaml.cs" />
+    <Compile Update="Structuring/Node.cs" />
+    <Compile Update="Structuring/NodeCollection.cs" />
+    <Compile Update="Structuring/SourceCollection.cs" />
+    <Compile Update="Views/BrowserViewModel.cs" />
     <Compile Update="App.xaml" />
     <Compile Update="App.xaml.cs" />
     <Compile Update="AssemblyInfo.cs" />
-    <Compile Update="Explorer/Media/MediaItem.cs" />
-    <Compile Update="ImageLibrary/RubiksCube.xaml" />
-    <Compile Update="ImageLibrary/RubiksCube.xaml.cs" />
     <Compile Update="MainWindow.xaml" />
     <Compile Update="MainWindow.xaml.cs" />
     <Compile Update="MyMediaItem.cs" />
