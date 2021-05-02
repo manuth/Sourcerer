@@ -11,6 +11,19 @@ namespace Gizmo.Sourcerer.Structuring
     public abstract class Node
     {
         /// <summary>
+        /// The nodes contained by this node.
+        /// </summary>
+        private NodeCollection childNodes;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="NodeCollection"/> class.
+        /// </summary>
+        public Node()
+        {
+            childNodes = new NodeCollection(this);
+        }
+
+        /// <summary>
         /// Gets the thumbnail of the item.
         /// </summary>
         public abstract Visual Thumbnail { get; }
@@ -69,13 +82,18 @@ namespace Gizmo.Sourcerer.Structuring
         }
 
         /// <summary>
+        /// Gets the parent of the node.
+        /// </summary>
+        public virtual Node Parent { get; set; }
+
+        /// <summary>
         /// Gets the nodes contained by this node.
         /// </summary>
         public virtual ObservableCollection<Node> ChildNodes
         {
             get
             {
-                return null;
+                return childNodes;
             }
         }
     }
