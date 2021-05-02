@@ -1,0 +1,8 @@
+{
+    "notebook.kernelProviderAssociations": [
+        {
+            "viewType": "jupyter-notebook",
+            "kernelProvider": "ms-dotnettools.dotnet-interactive-vscode"
+        }
+    ]
+}
