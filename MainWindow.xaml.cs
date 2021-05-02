@@ -27,9 +27,22 @@ namespace Gizmo.Sourcerer
         public MainWindow()
         {
             InitializeComponent();
+
             pictureList.ItemsSource = new List<Node>()
             {
-                new MyMediaItem(),
+                new MyMediaItem()
+                {
+                    ChildNodes = {
+                        new MyMediaItem()
+                        {
+                            ChildNodes = {
+                                new MyMediaItem()
+                            }
+                        },
+                        new MyMediaItem(),
+                        new MyMediaItem()
+                    }
+                },
                 new MyMediaItem()
             };
         }
