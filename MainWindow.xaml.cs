@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using Gizmo.Sourcerer.Explorer.Media;
+using Gizmo.Sourcerer.Structuring;
 
 namespace Gizmo.Sourcerer
 {
@@ -27,7 +27,7 @@ namespace Gizmo.Sourcerer
         public MainWindow()
         {
             InitializeComponent();
-            pictureList.ItemsSource = new List<MediaItem>()
+            pictureList.ItemsSource = new List<Node>()
             {
                 new MyMediaItem(),
                 new MyMediaItem()
