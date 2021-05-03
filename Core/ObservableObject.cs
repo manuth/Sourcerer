@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Gizmo.Sourcerer.Interaction
+namespace Gizmo.Sourcerer.Core
 {
     /// <summary>
     /// Represents an object which notifies about changes made to its properties.
