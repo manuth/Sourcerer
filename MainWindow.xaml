@@ -8,13 +8,29 @@
         x:Class="Gizmo.Sourcerer.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="grid1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <TreeView Background="Red"
+                  ItemsSource="{Binding Nodes}">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="local:Structuring.Node"
+                                          ItemsSource="{Binding ChildNodes}">
+                    <TextBlock Text="{Binding DisplayName}"/>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
         <ListView Margin="10"
                   Name="pictureList"
-                  ScrollViewer.CanContentScroll="False">
+                  ScrollViewer.CanContentScroll="False"
+                  Grid.Column="1"
+                  ItemsSource="{Binding Nodes}">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Thumbnail">
+                    <GridViewColumn Header="Thumbnail"
+                                    Width="100">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <ContentControl Content="{Binding Thumbnail}" />
