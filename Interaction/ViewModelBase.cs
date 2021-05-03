@@ -1,3 +1,0 @@
-namespace Gizmo.Sourcerer.Interaction
-{
-}
