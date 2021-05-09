@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Gizmo.Sourcerer.Interaction;
 using Gizmo.Sourcerer.Structuring;
 
 namespace Gizmo.Sourcerer
@@ -27,31 +28,33 @@ namespace Gizmo.Sourcerer
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this;
-        }
 
-        public Node[] Nodes
-        {
-            get
-            {
-                return new List<Node>()
+            DataContext = (
+                new BrowserViewModel
                 {
-                    new MyMediaItem()
-                    {
-                        ChildNodes = {
-                            new MyMediaItem()
-                            {
-                                ChildNodes = {
-                                    new MyMediaItem()
-                                }
-                            },
-                            new MyMediaItem(),
-                            new MyMediaItem()
+                    Nodes = {
+                        new MyMediaItem()
+                        {
+                            ChildNodes = {
+                                new MyMediaItem()
+                                {
+                                    ChildNodes = {
+                                        new MyMediaItem()
+                                    }
+                                },
+                                new MyMediaItem(),
+                                new MyMediaItem()
+                            }
+                        },
+                        new MyMediaItem()
+                        {
+                            ChildNodes = {
+                                new MyMediaItem(),
+                                new MyMediaItem()
+                            }
                         }
-                    },
-                    new MyMediaItem()
-                }.ToArray();
-            }
+                    }
+                });
         }
     }
 }
