@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -55,6 +55,22 @@ namespace Gizmo.Sourcerer
                         }
                     }
                 });
+        }
+
+        /// <summary>
+        /// Handles the `MouseDoubleClick`-event of the `ListViewItem`s.
+        /// </summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="eventArgs">An object which contains the event data.</param>
+        private void ListViewItem_MouseDoubleClick(object sender, RoutedEventArgs eventArgs)
+        {
+            if (sender is ListViewItem listViewItem)
+            {
+                if (listViewItem.DataContext is Node node)
+                {
+                    (DataContext as BrowserViewModel).ChangeSelection.Execute(node);
+                }
+            }
         }
     }
 }
