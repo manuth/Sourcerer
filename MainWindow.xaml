@@ -13,8 +13,7 @@
             <ColumnDefinition Width="200" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <TreeView Background="Red"
-                  ItemsSource="{Binding Nodes}">
+        <TreeView ItemsSource="{Binding Nodes}">
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate DataType="local:Structuring.Node"
                                           ItemsSource="{Binding ChildNodes}">
