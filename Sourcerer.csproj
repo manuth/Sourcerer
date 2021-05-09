@@ -21,4 +21,8 @@
     <Compile Update="MyMediaItem.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.31" />
+  </ItemGroup>
+
 </Project>
