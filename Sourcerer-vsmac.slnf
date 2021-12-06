@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "Sourcerer.sln",
+    "projects": [
+		"Sourcerer.Shared\\Sourcerer.Shared.shproj",
+		"Sourcerer.Wasm\\Sourcerer.Wasm.csproj",
+		"Sourcerer.Skia.Gtk\\Sourcerer.Skia.Gtk.csproj",
+    ]
+  }
+}
