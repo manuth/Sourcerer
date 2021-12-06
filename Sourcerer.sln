@@ -4,7 +4,7 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sourcerer.Shared", "Sourcerer.Shared\Sourcerer.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sourcerer.UWP", "Sourcerer.UWP\Sourcerer.Uwp.csproj", "{831BCA2E-D3FD-44CE-A306-49770593D94C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sourcerer.UWP", "Sourcerer.UWP\Sourcerer.UWP.csproj", "{831BCA2E-D3FD-44CE-A306-49770593D94C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcerer.Wasm", "Sourcerer.Wasm\Sourcerer.Wasm.csproj", "{40EA03F7-8A22-4143-B251-79BAC3EB13D2}"
 EndProject
@@ -12,7 +12,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcerer.Skia.Gtk", "Sourc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcerer.Skia.WPF", "Sourcerer.Skia.WPF\Sourcerer.Skia.WPF.csproj", "{F3659EF6-97CD-4BC7-93DB-DBA1DBA6FECE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcerer.Skia.Wpf.Host", "Sourcerer.Skia.WPF.Host\Sourcerer.Skia.Wpf.Host.csproj", "{6CF284A4-22B1-4F05-97F4-F095C07A598E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sourcerer.Skia.Wpf.Host", "Sourcerer.Skia.WPF.Host\Sourcerer.Skia.WPF.Host.csproj", "{6CF284A4-22B1-4F05-97F4-F095C07A598E}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
