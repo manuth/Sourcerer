@@ -1,3 +1,3 @@
-namespace Sourcerer.Skia.Gtk
+namespace Gizmo.Sourcerer.Skia.Gtk
 {
 }

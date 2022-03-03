@@ -1,7 +1,7 @@
 using System;
 using Windows.UI.Xaml;
 
-namespace Sourcerer.Wasm
+namespace Gizmo.Sourcerer.Wasm
 {
 	public class Program
 	{

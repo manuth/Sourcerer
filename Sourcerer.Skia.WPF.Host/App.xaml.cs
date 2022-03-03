@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Sourcerer.WPF.Host
+namespace Gizmo.Sourcerer.WPF.Host
 {
 	/// <summary>
 	/// Interaction logic for App.xaml

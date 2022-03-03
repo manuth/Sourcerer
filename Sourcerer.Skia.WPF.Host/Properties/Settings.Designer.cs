@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sourcerer.WPF.Host.Properties
+namespace Gizmo.Sourcerer.WPF.Host.Properties
 {
 
 

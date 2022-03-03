@@ -2,7 +2,7 @@ using System;
 using GLib;
 using Uno.UI.Runtime.Skia;
 
-namespace Sourcerer.Skia.Gtk
+namespace Gizmo.Sourcerer.Skia.Gtk
 {
 	class Program
 	{

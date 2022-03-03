@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sourcerer.WPF.Host.Properties
+namespace Gizmo.Sourcerer.WPF.Host.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Sourcerer.WPF.Host.Properties
 			{
 				if ((resourceMan == null))
 				{
-					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Sourcerer.WPF.Host.Properties.Resources", typeof(Resources).Assembly);
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Gizmo.Sourcerer.WPF.Host.Properties.Resources", typeof(Resources).Assembly);
 					resourceMan = temp;
 				}
 				return resourceMan;

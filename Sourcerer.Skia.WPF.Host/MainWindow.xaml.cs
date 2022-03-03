@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Sourcerer.WPF.Host
+namespace Gizmo.Sourcerer.WPF.Host
 {
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml

@@ -1,8 +1,8 @@
 <Application
-    x:Class="Sourcerer.App"
+    x:Class="Gizmo.Sourcerer.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Sourcerer">
+    xmlns:local="using:Gizmo.Sourcerer">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
