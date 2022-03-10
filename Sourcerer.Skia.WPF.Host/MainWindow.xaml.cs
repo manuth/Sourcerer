@@ -23,7 +23,7 @@ namespace Gizmo.Sourcerer.WPF.Host
 		public MainWindow()
 		{
 			InitializeComponent();
-			root.Content = new global::Uno.UI.Skia.Platform.WpfHost(Dispatcher, () => new Sourcerer.App());
+			root.Content = new global::Uno.UI.Skia.Platform.WpfHost(Dispatcher, () => new Gizmo.Sourcerer.App());
 		}
 	}
 }

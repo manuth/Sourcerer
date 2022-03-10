@@ -5,6 +5,7 @@
 		"Sourcerer.Shared\\Sourcerer.Shared.shproj",
 		"Sourcerer.Wasm\\Sourcerer.Wasm.csproj",
 		"Sourcerer.Skia.Gtk\\Sourcerer.Skia.Gtk.csproj",
+		"Sourcerer.Skia.Linux.FrameBuffer\\Sourcerer.Skia.Linux.FrameBuffer.csproj",
     ]
   }
 }
